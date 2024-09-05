@@ -32,7 +32,7 @@ public class Produto {
     }
 
     public static void main(String[] args) {
-        Produto produto = new Produto("Iphone", "12345", 900.000);
+        Produto produto = new Produto("Iphone", "12345", 900.00);
 
         produto.exibirInformacoes();
         System.out.println();
